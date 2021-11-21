@@ -13,4 +13,3 @@ We are still preparing the repository in a user-friendly way.
 
 ## Training
 
-## Testing
