@@ -18,8 +18,10 @@ https://arxiv.org/abs/2109.00482
 
 You can train the proposed models for unsupervised anomaly localization as follows:
 
+```
 cd code
 python main.py --dir_datasets ../data/BRATS_5slices/ --dir_out ../data/results/proposed/ --method proposed
+```
 
 Please, note that baselines (e.g. ae, vae, anovaegan, etc.) used in this paper are also traineble using the main.py file, by inspecting the variable '--method'.
 
