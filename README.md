@@ -10,9 +10,28 @@ https://arxiv.org/abs/2109.00482
 
 ###### Minimum requirements
 
+Software minimum requirements:
+- torch==1.7.0
+- nibabel
+- numpy==1.18.4
+- cv2==4.2.0
+
+
 ###### Download dataset
 
+In this work, we benchmark the proposed method on unsueprvised anomaly segmentation using the popular Brats19' dataset of brain MRI images. You can find it in the following link:
+https://drive.google.com/file/d/1NgHMcIcfVGcoAYWd0ABI6AEZCkpFpvJ8/view?usp=sharing
+Please, download the MRI volumes and allocate then in ./data/ folder.
+
 ###### Preprocess data
+MRI volumes are preprocessed to satisfy the unsupervied paradigm. The full process is described in the manuscript. We provide the following function to process the previously downloaded dataset, including train/val/test splits.
+
+```
+cd code
+python adecuate_BRATS.py --dir_datasets ../data/MICCAI_BraTS_2019_Data_Training/ --dir_out ../data/BRATS_5slices/ --scan flair --nSlices 5
+```
+
+Please, note that both preprocessing and further training functions work using the different MRI modalities in Brats. The variable nSlices indicates the number of sliced around the center of each MRI scan used.
 
 ## Training
 
