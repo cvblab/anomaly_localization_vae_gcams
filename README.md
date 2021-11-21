@@ -1,2 +1,3 @@
 # Looking at the whole picture: constrained unsupervised anomaly segmentation
 We are still preparing the repository in a user-friendly way.
+https://github.com/cvblab/anomaly_localization_vae_gcams/blob/main/figures/brats19_results_qualitative.png
