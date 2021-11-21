@@ -5,11 +5,11 @@ We are still preparing the repository in a user-friendly way.
 
 ## Getting Started
 
-### Minimum requirements
+#### Minimum requirements
 
-### Download dataset
+#### Download dataset
 
-### Preprocess data
+#### Preprocess data
 
 ## Training
 
