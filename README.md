@@ -21,6 +21,7 @@ Software minimum requirements:
 
 In this work, we benchmark the proposed method on unsueprvised anomaly segmentation using the popular Brats19' dataset of brain MRI images. You can find it in the following link:
 https://drive.google.com/file/d/1NgHMcIcfVGcoAYWd0ABI6AEZCkpFpvJ8/view?usp=sharing
+
 Please, download the MRI volumes and allocate then in ./data/ folder.
 
 ###### Preprocess data
