@@ -21,8 +21,7 @@ Software minimum requirements:
 
 In this work, we benchmark the proposed method on unsueprvised anomaly segmentation using the popular Brats19' dataset of brain MRI images. You can find it in the following link:
 https://drive.google.com/file/d/1NgHMcIcfVGcoAYWd0ABI6AEZCkpFpvJ8/view?usp=sharing
-
-Please, download the MRI volumes and allocate then in ./data/ folder.
+Download the MRI volumes and allocate then in ./data/ folder.
 
 ###### Preprocess data
 MRI volumes are preprocessed to satisfy the unsupervied paradigm. The full process is described in the manuscript. We provide the following function to process the previously downloaded dataset, including train/val/test splits.
@@ -32,7 +31,7 @@ cd code
 python adecuate_BRATS.py --dir_datasets ../data/MICCAI_BraTS_2019_Data_Training/ --dir_out ../data/BRATS_5slices/ --scan flair --nSlices 5
 ```
 
-Please, note that both preprocessing and further training functions work using the different MRI modalities in Brats. The variable nSlices indicates the number of sliced around the center of each MRI scan used.
+Preprocessing and further training functions work using the different MRI modalities in Brats. The variable nSlices indicates the number of sliced around the center of each MRI scan used.
 
 ## Training
 
@@ -43,7 +42,7 @@ cd code
 python main.py --dir_datasets ../data/BRATS_5slices/ --dir_out ../data/results/proposed/ --method proposed
 ```
 
-Please, note that baselines (e.g. ae, vae, anovaegan, etc.) used in this paper are also traineble using the main.py file, by inspecting the variable '--method'.
+Note that baselines (e.g. ae, vae, anovaegan, etc.) used in this paper are also traineble using the main.py file, by inspecting the variable '--method'.
 
 ## Contact
 For further questions or details, please directly reach out to Julio Silva-Rodríguez
