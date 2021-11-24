@@ -42,7 +42,7 @@ cd code
 python main.py --dir_datasets ../data/BRATS_5slices/ --dir_out ../data/results/proposed/ --method proposed
 ```
 
-Note that baselines (e.g. ae, vae, anovaegan, etc.) used in this paper are also traineble using the main.py file, by inspecting the variable '--method'.
+Note that baselines (e.g. ae, vae, anovaegan, etc.) used in this paper are also trainable using the main.py file, by inspecting the variable '--method'.
 
 ## Contact
 For further questions or details, please directly reach out to Julio Silva-Rodríguez
