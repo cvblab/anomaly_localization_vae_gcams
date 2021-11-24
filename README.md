@@ -12,7 +12,7 @@ https://arxiv.org/abs/2109.00482
 
 Software minimum requirements:
 - torch==1.7.0
-- nibabel
+- nibabel==3.2.1
 - numpy==1.18.4
 - cv2==4.2.0
 
